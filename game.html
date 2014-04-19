@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <title> Duplicated Nyan Cat 2.0</title>
+
+  </head>
+        <body>
+          <script> 
+            var click = 0;
+            function learnmore() {
+              alert("Welcome to the duplicated version of Nyan Cat!");
+              alert("You can move the lil' poptart with the arrow keys, and change the background in which he moves in with the button 'change'!");
+              alert("Not only that, you can 'Play' or 'Stop' the music from going!..");
+              alert("..But what is Nyan Cat without the theme song? NOTHING!");
+              alert("Thank you for playing!");
+              alert("Yazid - Creator of This Project");
+            }
+            function Change() {
+           click++;
+              if (click === 1) {$('#level1').fadeOut('fast');
+              $('#level2').fadeIn('fast');
+          } if (click === 2) {
+
+$('#level2').fadeOut('fast');                               }             
+            }
+            </script>
+          <img id="nyancat" src="http://files.gamebanana.com/img/ico/sprays/_594-.gif"/>
+          <img id="level1" src="http://mycriticalapproachtotechnologyandsociety.files.wordpress.com/2007/02/cloudsscroll.gif"/>
+             <img id="level2" src="http://junkerhq.net/xrgb/images/f/f5/Scroll.gif"/>
+          
+          <!-- Button -->
+           <INPUT TYPE="image" id="learn" onclick="learnmore()" SRC="http://ih.constantcontact.com/fs100/1104169690388/img/424.gif?a=1112111095472">
+          <button id="change" onclick="Change()"> Change Background </button>
+        </body>
+</html>
