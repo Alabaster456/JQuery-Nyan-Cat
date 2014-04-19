@@ -1,0 +1,37 @@
+/* The Nyan Cat! */
+#nyancat {
+margin-left: 290px;
+  margin-top: 120px;
+  position:fixed;
+  z-index: 1;
+}
+/* Levels.. */
+#level1 {
+    position:fixed;
+    width:100%;
+    height:100%;
+  top:0px;
+    left:0px;
+}
+#level2 {
+    position:fixed;
+    width:100%;
+    height:100%;
+  top:0px;
+    left:0px;
+  display:none;
+}
+/* END */
+
+/* BUTTONS */
+#learn {
+  height: 50px;
+  width:160px;
+  margin-top: 570px;
+margin-left: 853px;
+position:absolute;
+}
+#change {
+position:absolute;
+  
+}
