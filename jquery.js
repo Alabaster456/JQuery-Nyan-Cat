@@ -28,4 +28,5 @@ $('#nyancat').stop(true);
           });
 });
 var snd = new Audio("http://radio.db0.fr/mp3/MEMES/Nyan%20Cat.mp3");
+snd.loop = true;
 snd.play();
